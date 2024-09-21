@@ -1,12 +1,22 @@
-- This project is based on predicting the price of an Insurance claim using ML Algoritmhs
-- Data Source (Real time data from one of leading medical aid society in Zimbabwe)
+Project Overview
 
+This project focuses on predicting the price of insurance claims using machine learning algorithms.
+Data Source
 
-- Data was imported for cleaning and character definitions
-- EDA was conducted to make sure that the data meets the actual formatings and date categories are cleaned to read as dates.
-- It was splitted into train and test data set before feature engineering took place
-- Feature engineering was conducted.
-- The researcher managed to treat missing values by with the meadian values of the data set to enhance normality assumption
-- To convert categorical data into strings, onehot-encoding took place on the train data set
-- Model evaluation was done and the RMSE AND RME were at minimal levels (which determines the eroor levels of the Data sets)
-- After conducting valuation on RF models , predictions were made with the tested algorithms 
+The dataset is sourced from real-time data provided by a leading medical aid society in Zimbabwe.
+Data Preparation
+
+    Data Import & Cleaning: The dataset was imported, cleaned, and appropriate character definitions were applied.
+    Exploratory Data Analysis (EDA): EDA was performed to ensure that the data met formatting standards, with date columns cleaned and formatted correctly.
+
+Data Processing
+
+    Train-Test Split: The dataset was split into training and testing sets before proceeding with feature engineering.
+    Feature Engineering: This included transformations and adjustments to the dataset to enhance model performance.
+    Missing Value Treatment: Missing values were treated using median imputation to support the assumption of normality.
+    One-Hot Encoding: Categorical variables were converted into a numerical format using one-hot encoding on the training set.
+
+Model Development & Evaluation
+
+    Model Evaluation: Models were evaluated, and the Root Mean Squared Error (RMSE) and Relative Mean Error (RME) were found to be at minimal levels, indicating low error rates.
+    Random Forest Model: After evaluating several algorithms, predictions were made using Random Forest models, which yielded strong results.
